@@ -1,0 +1,148 @@
+/* Header Section */
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    color: #3498db;
+}
+
+/* About Me Section */
+.about {
+    background-color: #ecf0f1;
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Certifications Section */
+.certifications {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.certifications h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.cert-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cert-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cert-card p {
+    margin-top: 10px;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.projects-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    margin-top: 10px;
+    font-size: 1.6rem;
+}
+
+.project-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-card a:hover {
+    background-color: #2980b9;
+}

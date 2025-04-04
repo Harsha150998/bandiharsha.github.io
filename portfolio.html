@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        .content {
+            display: none;
+            padding-top: 10px;
+        }
+        .active .content {
+            display: block;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bandi Harsha</h1>
+        <nav>
+            <ul>
+               <li><a href="#about"><i class="fas fa-user icon"></i>About Me</a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase icon"></i>Work Experience</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram icon"></i>Projects</a></li>
+                <li><a href="#certifications"><i class="fas fa-certificate icon"></i>Certifications</a></li>
+                <li><a href="#skills"><i class="fas fa-laptop-code icon"></i>Skills</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap icon"></i>Education</a></li>
+				<li><a href="#contacts"><i class="fas fa-contacts-cap icon"></i>Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" onclick="toggleSection(this)">
+        <h2><i class="fas fa-user icon"></i>About Me</h2>
+        <div class="content">
+            <p>Proficient in data visualization and data analytics, with experience using Tableau/Power BI to create dashboards and reports. 
+			Strong SQL skills with a solid understanding of database management and advanced proficiency in Excel. Ability to mine, evaluate, and 
+			visualize data to uncover actionable insights that enhance business performance.</p><p> Excellent verbal and written communication skills for 
+			conveying complex ideas to diverse audiences. Adaptable and versatile in collaborative work and engaging with customers and suppliers. </p><p>
+			Experienced in implementing Extract, Transform, Load (ETL) processes using tools like Talend to enhance data quality. Programming skills 
+			in Python, SQL, Java and C#, with experience in MVC, .NET, WCF, and WPF. Hands-on experience with relational databases such as PostgreSQL 
+			and MySQL, including data modelling and query optimization. Skilled in creating interactive dashboards and visualizations using Tableau 
+			and Power BI. Familiar with cloud technologies, including AWS (S3, Redshift) and Azure (Data Lake, Data Factory) and cloud architecture. </p><p>
+			Familiar to analyze data in customer segmentation to drive personalized marketing campaigns. Understanding of DevOps practices, including 
+			CI/CD pipelines for automating deployment processes. Proficient in HTML and version control using Git for Team-Oriented development.</p><p>
+			Basic experience with containerization technologies like Docker for application deployment. Applied knowledge of marketing metrics to analyze 
+			customer behaviour, trends and market opportunities. Used New Technologies for predictive modelling, resulting in substantial decrease in 
+			forecasting errors and maintained a professional attitude while collaborating with various teams to analyze and interpret complex data sets. 
+ 
+</p>
+        </div>
+    </section>
+    
+    <section id="experience" onclick="toggleSection(this)">
+        <h2><i class="fas fa-briefcase icon"></i>Work Experience</h2>
+        <div class="content">
+            <p>Data Analyst at Wipro Technologies  Jun 2023 - Present</p>
+			<p>As a Data Analyst at Wipro Technologies, I developed interactive Tableau dashboards and executed complex Query writings in Azure SQL Database. 
+			I utilized advanced Excel for analysis, collaborated with teams to meet business requirements, and ensured data quality in reporting processes.</p>
+			<p>Responsibilities:</p>
+			<ul>
+	<li>Developed and maintained interactive dashboards using Tableau to communicate insights and findings to stakeholders, enhancing business decision-making processes
+	<li>Streamlined data analysis by writing efficient SQL queries in PostgreSQL, which helped speed up report generation and improved decision-making for the team.
+	<li>Built automated data pipelines using SSIS, making it easier to pull in data from various sources and load it into our PostgreSQL database where we can save time and reduce errors.
+	<li>Created and managed reports with SSRS, providing clear and actionable insights to stakeholders, ensuring everyone stayed on top of key business metrics.
+	<li>Leveraged SDLC methodologies to manage data-related projects from initiation to closure, ensuring timely completion and quality standards.
+	<li>Implemented CRM tools to enhance data collection, processing, and analysis that boosted overall business performance.
+	<li>Developed and implemented efficient algorithms for data analysis, significantly improving productivity.
+	<li>Used advanced SQL queries to manipulate and extract data from the Data Warehouse, enhancing the quality of business insights and decision-making.
+	<li>Utilized Kafka for streamlining and managing large sets of data, enhancing productivity in data analysis tasks.
+	<li>Performed comprehensive Requirements Analysis to optimize data management strategies, resulting in streamlined operations and enhanced data quality.
+	<li>Used Business Objects to optimize data extraction, reporting, and analysis, boosting overall efficiency.
+	<li>Designed and implemented data quality checks to ensure the accuracy and Data integrity used.
+	<li>Created and maintained dynamic PowerPoint presentations that visualized complex data sets for quarterly review meetings.
+	<li>Provided expertise in information management to improve data processing, storage, and retrieval.
+	<li>Utilized Microsoft Excel to efficiently organize, analyze and interpret large data sets for actionable insights.
+	<li>Integrated Jira with business intelligence tools to automate reporting processes and enhance data visibility across the organization.
+	<li>Leveraged CI/CD methodologies to streamline and automate data quality checks and validation procedures, enhancing overall project efficiency as a Data Analyst.
+	<li>Enhanced business procedures by applying strong problem-solving skills to optimize complex data analyze.
+	<li>Applied Optimization Analytics techniques to forecast trends and inform strategic direction.
+</ul>
+Environment: Tableau, Azure SQL Database, PostgreSQL, Kafka, JIRA, CI/CD, SSIS, SSRS, MS Office Suite, Excel (advanced functionalities), Data Quality tools, Data Mining techniques, Agile methodologies, Git, Python, Data Visualization tools.
+
+			
+        </div>
+    </section>
+    
+    <section id="projects" onclick="toggleSection(this)">
+      <h2><i class="fas fa-project-diagram icon"></i>Projects</h2>
+    <div class="content">
+        <h3>House Price Prediction</h3>
+        <p>Developed a machine learning model to predict real-time house prices...</p>
+        <a href="intro.pdf" target="_blank">📄 View Project Report (PDF)</a>
+    </div>
+    
+    <div class="content">
+        <h3>Integrated Health Care</h3>
+        <p>A web application where personalized health records are stored in the cloud...</p>
+        <a href="ihc.pdf" target="_blank">📄 View Project Report (PDF)</a>
+    </div>
+    </section>
+    
+    <section id="certifications" onclick="toggleSection(this)">
+        <h2><i class="fas fa-certificate icon"></i>Certifications</h2>
+        <div class="content">
+		<ul>
+            <li>	Microsoft Certified Azure Fundamentals AZ900
+ <li>Microsoft Certified Database Administrator Associate 
+ <li>Joy of Learning Python by IITM
+ </ul>
+
+        </div>
+    </section>
+    
+    <section id="skills" onclick="toggleSection(this)">
+        <h2><i class="fas fa-laptop-code icon"></i>Core Skills</h2>
+        <div class="content">
+            
+			<ul>	
+
+<li>Programming Languages: Python, SQL, Java, C#, PowerShell
+<li>	Data Visualization Tools: Tableau, Power BI
+<li>Web Development Frameworks: HTML, MVC, .NET, WCF, WPF
+<li>	Databases: PostgreSQL, MySQL, SQL Server, Snowflake
+<li>	Cloud Technologies: Azure, AWS, GCP
+<li>Data Integration Tools: ETL processes, Talend, SSIS, Kafka
+<li>Development Tools: Git, Docker, Kubernetes, CI/CD pipelines
+<li>	Project Management Tools: JIRA, Jenkins
+<li>	Methodologies: Agile (Scrum, Kanban)
+<li>	Data Mining Tools: Data mining techniques (clustering, classification, regression), SAS Enterprise Miner
+<li>	Productivity Tools: MS Office Suite (Word, PowerPoint, Outlook), Excel (advanced features like PivotTables, VLOOKUP, Power Query)
+
+</ul>
+        </div>
+    </section>
+    
+    <section id="education" onclick="toggleSection(this)">
+        <h2><i class="fas fa-graduation-cap icon"></i>Education</h2>
+        <div class="content">
+		<ul>
+		
+<li> University of Memphis	Aug 2021 - May 2023
+Master of Information Systems
+ 
+<li>JNTUH	Jul 2016 - Mar 2021
+Bachelors | Information Technology
+</ul>
+
+        </div>
+    </section>
+	
+	
+<section id="contacts" onclick="toggleSection(this)">
+        <h2><i class="fas fa-address-book icon"></i>Contacts</h2>
+        <div class="content">
+		<ul>
+		
+<li> Email: bandi.harsha@gmail.com
+ 
+
+</ul>
+
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Bandi Harsha | Contact: bandi.harsha@gmail.com</p>
+    </footer>
+    
+    <script>
+        function toggleSection(section) {
+            let sections = document.querySelectorAll("section");
+            sections.forEach(sec => {
+                if (sec !== section) {
+                    sec.classList.remove("active");
+                }
+            });
+            section.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
